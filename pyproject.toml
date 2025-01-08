@@ -4,7 +4,7 @@ build-backend = "mesonpy"
 requires = ["meson-python"]
 
 [project]
-name = "ihpsg13g2-pdk"
+name = "coriolis-pdk-ihpsg13g2"
 version = "2024.10.15"
 authors = [ { name="Krzysztof Herman", email="herman@ihp-microelectronics.com" }
           , { name="Sergei Andreev"  , email="andreev@ihp-microelectronics.com" }

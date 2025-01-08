@@ -1,6 +1,6 @@
 
 project(
-  'ihpsg13g2-pdk',
+  'coriolis-pdk-ihpsg13g2',
    version:  '2024.10.15',
    meson_version: '>= 1.2.0',
 )
