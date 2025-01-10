@@ -2,7 +2,7 @@
 export PYBUILD_NAME    = coriolis-pdk-ihpsg13g2
 export PYBUILD_VERBOSE = 1
 export DH_VERBOSE      = 1
-       DESTDIR         = $(CURDIR)/debian
+       DESTDIR         = $(CURDIR)/debian/$(PYBUILD_NAME)
 
 #%:
 #	cat /etc/os-release
