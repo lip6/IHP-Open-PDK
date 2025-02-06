@@ -1,5 +1,5 @@
 %global python3_pkgversion 3.11
-%if 0%{?fedora} >= 39
+%if 0%{?rhel} >= 9 || 0%{?fedora} >= 39
 %global python3_pkgversion 3
 %endif
 %if 0%{?is_opensuse}
