@@ -22,6 +22,7 @@ Source10:       %{name}-rpmlintrc
 
 BuildArch:      noarch
 Requires:       coriolis-eda
+BuildRequires:  openvaf
 %if 0%{?rhel} || 0%{?fedora}
 BuildRequires:  ninja-build
 BuildRequires:  pyproject-rpm-macros
