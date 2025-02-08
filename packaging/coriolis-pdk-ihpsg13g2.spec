@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 %global python3_pkgversion 3.11
 %if 0%{?rhel} >= 9 || 0%{?fedora} >= 39
 %global python3_pkgversion 3
@@ -20,7 +22,7 @@ Source1:        venv-al9-2.5.5.tar.gz
 Source2:        patchvenv.sh
 Source10:       %{name}-rpmlintrc
 
-BuildArch:      noarch
+BuildArch:      x86_64
 Requires:       coriolis-eda
 BuildRequires:  openvaf
 %if 0%{?rhel} || 0%{?fedora}
